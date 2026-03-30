@@ -5,7 +5,7 @@ read -p "Freedom means: " FREEDOM
 read -p "What will you build: " BUILD
 
 DATE=$(date '+%d %B %Y')
-OUTPUT="manifesto.txt"
+OUTPUT="akash_manifesto.txt"
 
 echo "On $DATE, I believe open source is about $FREEDOM." > $OUTPUT
 echo "Tools like $TOOL help developers collaborate." >> $OUTPUT
